@@ -1,8 +1,6 @@
 from pymongo import MongoClient
 import datetime
 
-def hello():
-    print('Hellooooooooooooooooo')
 
 def mock_data(database_name, numb_docs):
     collection_name = 'Task'

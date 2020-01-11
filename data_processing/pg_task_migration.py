@@ -1,8 +1,5 @@
 import psycopg2
 
-# mock
-# aggr_mongo
-# pg_migration
 
 def create_table(cursor):
     create_table_with_index = ('''CREATE TABLE task_count
